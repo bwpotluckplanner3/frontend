@@ -29,7 +29,7 @@
   margin: 2%;
   height: 100%;
   width: 100%;
-  border: 2px ridge gold;
+  border: 2px ridge #d8f3dc;
 }
 .btn-secondary {
   display: block;
