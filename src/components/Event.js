@@ -23,15 +23,13 @@ const Event = (props) => {
   return (
   
     <div className="events" key={event_id} onClick={handleClick}>
-        <h4>Potluck Name: {event_title}</h4>
-        <p>Date: {event_date}</p> 
-        <p>Location: {event_location}</p>
-        <p>Description: {event_description}</p>
+        <h4><span>Potluck Name:</span> {event_title}</h4>
+        <p><span>Date:</span> {event_date}</p> 
+        <p><span>Location:</span> {event_location}</p>
+        <p><span>Description:</span> {event_description}</p>
   </div>
 
   );
 };
 
 export default Event;
-//map out list of dishes in dish list
-// dish.map(dish => {<p>{dish}</p>})
